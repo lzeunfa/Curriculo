@@ -26,7 +26,7 @@ body{
 #navegacao{
     display: flex;
 
-    height: 800px;
+    height: 760px;
 }
 
 #navegacao ul{
@@ -66,7 +66,7 @@ body{
 #apresentacao #navegacao .apresentacao a,
 #curriculo #navegacao .curriculo a,
 #projetos #navegacao .projetos a,
-#certificados #navegacao .certificados a{
+#certificados #navegacao .certificados a{/*estilos pra seleção das abas*/
     background-color: white;
     color: #5038A6;
 }
@@ -77,9 +77,11 @@ body{
     background-color: white;
 
     width: 720px;
-    height: 800px;
+    height: 760px;
 
     border-radius: 0px 20px 20px 20px;
+
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.521);
 
     overflow: hidden;
 }
@@ -98,7 +100,7 @@ body{
 }
 
 #conteiner_apre h2{
-    padding: 10px 0px 20px 20px;
+    padding: 10px 0px 10px 20px;
     
     font-weight: 700;
     
@@ -116,4 +118,18 @@ body{
 #conteiner_apre img{
     border-radius: 50%;
     margin: 20px 0px 0px 20px;
+}
+
+.p_especial{
+    display: inline;
+    padding-top: 0px;
+}
+
+.p_especial a{
+    text-decoration: none;
+    color: #5038A6;
+}
+
+.p_especial a:hover{
+    text-shadow: 1px 1px 5px black;
 }
