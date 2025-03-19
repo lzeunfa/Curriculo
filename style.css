@@ -21,13 +21,12 @@ body{
     background-image: linear-gradient(45deg, white, gray, white, gray);
 }
 
+/*area apresentacao*/
 /*area menu navegacao*/
 #navegacao{
     display: flex;
 
     height: 800px;
-
-    border: 1px solid red;
 }
 
 #navegacao ul{
@@ -65,12 +64,15 @@ body{
 }
 
 #apresentacao #navegacao .apresentacao a,
-#curriculo #navegacao .curriculo a{
+#curriculo #navegacao .curriculo a,
+#projetos #navegacao .projetos a,
+#certificados #navegacao .certificados a{
     background-color: white;
     color: #5038A6;
 }
 /* // */
 
+/* apresentacao */
 #conteiner_apre{
     background-color: white;
 
@@ -78,4 +80,40 @@ body{
     height: 800px;
 
     border-radius: 0px 20px 20px 20px;
+
+    overflow: hidden;
+}
+
+#conteiner_apre h1{
+        padding: 10px;
+    
+        font-weight: 700;
+    
+        color: #5038A6;
+        background-color: rgba(128, 128, 128, 0.582);
+    
+        text-align: center;
+    
+        box-shadow: 1px 1px 8px #5038A6;
+}
+
+#conteiner_apre h2{
+    padding: 10px 0px 20px 20px;
+    
+    font-weight: 700;
+    
+    color: #5038A6;
+}
+
+#conteiner_apre p{
+    font-weight: bolder;
+    font-size: 1.1em;
+
+    padding: 0px 20px 20px 20px;
+}
+
+
+#conteiner_apre img{
+    border-radius: 50%;
+    margin: 20px 0px 0px 20px;
 }
