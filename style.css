@@ -137,3 +137,10 @@ body{
 .p_especial a:hover{
     text-shadow: 1px 1px 5px black;
 }
+
+/* // */
+
+/*curriculo*/
+.p_roxo{
+    color: #5d41c5;
+}

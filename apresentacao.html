@@ -7,6 +7,8 @@
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="style.css">
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"><!--biblioteca de animação-->
 </head>
 <body id="apresentacao">
     <div id="navegacao">
@@ -19,24 +21,30 @@
     </div>
     <!-- // -->
 
-    <div id="conteiner_conteudo"><!--Conteiner da apresentação-->
-        <h1>Apresentação</h1>
-        <img src="img/perfil2.jpeg" alt="foto-perfil">
-        <h2>Quem eu sou e de onde sou?</h2>
-        <p>Olá seja bem vindo ao meu currículo, muito prazer me chamo Eliseu Nóbrega, tenho 18 anos, nascido em Brasília e ainda morador de Brasília nossa capital.</p>
-        <hr>
-
-        <h2>Resumo sobre mim</h2>
-        <p>- Comecei a estudar programação em Novembro de 2023 com o curso de algoritmos do Curso em vídeo e daí pra frente segui estudando, realizeu cursos de html e css 4 módulos de 40h do papai Guanabara, curso de JS básico e de git e github. 
-            <br> - Atualmente faço um curso de desenvolvimento web na Udemy que abrange bootstrap, ecmascript, sql, jquery entre outras habilidades pra desenvolvimento web e também um curso da freecode pra aprimorar meu Javascript. 
-            <br>- Procuro conseguir um estágio para aprimorar minhas habilidades dentro da área de desenvolvimento/t.i e me encontar melhor na área que eu vou me aperfeiçoar mas de começo penso em ser um full-stack começando pela parte do front-end. <br>
-            - Nunca me considerei alguém inteligente mas sei que sempre fui esforçado, sou curioso e sempre gosto de aprender coisas novas, com certeza me dedico da melhor forma possível pra o que eu tiver que fazer.
-        </p>
-
-        <hr>
-        <h2>Acessos:</h2>
-        <p class="p_especial"><img src="img/githubiconr.png" alt="icon-github"><a href="https://github.com/lzeunfa" target="_blank">GitHub</a></p>
-        <p class="p_especial"><img src="img/linkediniconr.webp" alt="icon-linkedin"><a href="https://www.linkedin.com/in/eliseu-n%C3%B3brega-ferraz-de-azevedo-37a397341/" target="_blank">Linkedin</a></p>
+    <div id="conteiner_conteudo" ><!--Conteiner da apresentação-->
+            <h1>Apresentação</h1>
+        <div data-aos="zoom-in" data-aos-duration="1500">
+            <img src="img/perfil2.jpeg" alt="foto-perfil">
+            <h2>Quem eu sou e de onde sou?</h2>
+            <p>Olá seja bem vindo ao meu currículo, muito prazer me chamo Eliseu Nóbrega, tenho 18 anos, nascido em Brasília e ainda morador de Brasília nossa capital.</p>
+            <hr>
+            <h2>Resumo sobre mim</h2>
+            <p>- Comecei a estudar programação em Novembro de 2023 com o curso de algoritmos do Curso em vídeo e daí pra frente segui estudando, realizeu cursos de html e css 4 módulos de 40h do papai Guanabara, curso de JS básico e de git e github.
+                <br> - Atualmente faço um curso de desenvolvimento web na Udemy que abrange bootstrap, ecmascript, sql, jquery entre outras habilidades pra desenvolvimento web e também um curso da freecode pra aprimorar meu Javascript.
+                <br>- Procuro conseguir um estágio para aprimorar minhas habilidades dentro da área de desenvolvimento/t.i e me encontar melhor na área que eu vou me aperfeiçoar mas de começo penso em ser um full-stack começando pela parte do front-end. <br>
+                - Nunca me considerei alguém inteligente mas sei que sempre fui esforçado, sou curioso e sempre gosto de aprender coisas novas, com certeza me dedico da melhor forma possível pra o que eu tiver que fazer.
+            </p>
+            <hr>
+            <h2>Acessos:</h2>
+            <p class="p_especial"><img src="img/githubiconr.png" alt="icon-github"><a href="https://github.com/lzeunfa" target="_blank">GitHub</a></p>
+            <p class="p_especial"><img src="img/linkediniconr.webp" alt="icon-linkedin"><a href="https://www.linkedin.com/in/eliseu-n%C3%B3brega-ferraz-de-azevedo-37a397341/" target="_blank">Linkedin</a></p>
+        </div>
     </div>
+
+    <!--Parte do js da biblioteca de animação-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 </html>
