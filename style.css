@@ -33,7 +33,7 @@ body{
     height: 760px;
 }
 
-#navegacao ul{
+#navegacao ul{ /*para inverter as abas*/
     display: flex;
     flex-direction: row-reverse;
 
@@ -145,10 +145,19 @@ p{
     color: #5d41c5;
 }
 
+.download_curriculo{
+    text-align: center;
+    color: #5d41c5;
+}
+
+.download_curriculo a:hover{
+    text-shadow: 1px 1px 5px black;
+}
+
 /* // */
 
 /*projetos*/
-#conteiner_conteudo_projetos{
+#conteiner_conteudo_blocos{
     background-color: white;
 
     width: 720px;
@@ -165,7 +174,7 @@ p{
     margin: 20px;
 }
 
-#conteiner_conteudo_projetos img{
+#conteiner_conteudo_blocos img{
     width: 300px;
 
     border-radius: 20px;
@@ -174,8 +183,8 @@ p{
     transition: .5s;
 }
 
-#conteiner_conteudo_projetos img:hover{
-    transform: translate(0%, -2%);
+#conteiner_conteudo_blocos img:hover{
+    transform: translate(0%, -3%);
 
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.596);
 }
